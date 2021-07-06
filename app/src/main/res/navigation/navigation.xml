@@ -23,8 +23,8 @@
 
     <fragment
         android:id="@+id/experienceFragment"
-        android:name="com.idnbs.myapplication.ui.ExperienceFragment"
-        android:label="fragment_experience"
+        android:name="com.idnbs.myapplication.ui.experience.ExperienceFragment"
+        android:label="Experience"
         tools:layout="@layout/fragment_experience" />
     <fragment
         android:id="@+id/settingFragment"
