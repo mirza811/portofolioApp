@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.idnbs.myapplication.ui.ProfileFragment"
+        android:name="com.idnbs.myapplication.ui.profile.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
@@ -17,9 +17,10 @@
         tools:layout="@layout/fragment_flutter" />
     <fragment
         android:id="@+id/androidFragment"
-        android:name="com.idnbs.myapplication.ui.AndroidFragment"
-        android:label="fragment_android"
+        android:name="com.idnbs.myapplication.ui.android.AndroidFragment"
+        android:label="Android"
         tools:layout="@layout/fragment_android" />
+
     <fragment
         android:id="@+id/experienceFragment"
         android:name="com.idnbs.myapplication.ui.ExperienceFragment"
