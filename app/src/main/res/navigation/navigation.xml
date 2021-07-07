@@ -25,7 +25,11 @@
         android:id="@+id/experienceFragment"
         android:name="com.idnbs.myapplication.ui.experience.ExperienceFragment"
         android:label="Experience"
-        tools:layout="@layout/fragment_experience" />
+        tools:layout="@layout/fragment_experience" >
+        <action
+            android:id="@+id/action_experienceFragment_to_experienceDetailFragment"
+            app:destination="@id/experienceDetailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/settingFragment"
         android:name="com.idnbs.myapplication.ui.SettingFragment"
@@ -36,4 +40,13 @@
         android:name="com.idnbs.myapplication.ui.UiUxFragment"
         android:label="fragment_ui_ux"
         tools:layout="@layout/fragment_ui_ux" />
+    <fragment
+        android:id="@+id/experienceDetailFragment"
+        android:name="com.idnbs.myapplication.ui.experience.ExperienceDetailFragment"
+        android:label="Detail Cerita Saya"
+        tools:layout="@layout/fragment_experience_detail" >
+        <argument
+            android:name="experience"
+            app:argType="com.idnbs.myapplication.data.experience.Experience" />
+    </fragment>
 </navigation>

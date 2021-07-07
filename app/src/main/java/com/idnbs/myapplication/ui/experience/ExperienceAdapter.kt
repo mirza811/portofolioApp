@@ -13,6 +13,8 @@ class ExperienceAdapter : RecyclerView.Adapter<ExperienceAdapter.ExperienceViewH
 
     private val listData = ArrayList<Experience>()
 
+    var onItemClicked: ((Experience) -> Unit)? = null
+
     fun setData(data: List<Experience>?) {
         if (data == null) return
         listData.clear()
@@ -41,6 +43,12 @@ class ExperienceAdapter : RecyclerView.Adapter<ExperienceAdapter.ExperienceViewH
             binding.txtDetail.text = data.detail
             binding.imgExperience.load(data.image) {
                 crossfade(1000)
+            }
+        }
+
+        init {
+            binding.root.setOnClickListener {
+                onItemClicked?.invoke(listData[adapterPosition])
             }
         }
     }
