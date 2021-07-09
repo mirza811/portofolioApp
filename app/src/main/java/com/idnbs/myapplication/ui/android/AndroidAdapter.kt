@@ -4,17 +4,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import coil.load
 import com.idnbs.myapplication.R
 import com.idnbs.myapplication.data.android.Android
 import com.idnbs.myapplication.databinding.ItemAndroidBinding
 
-class AndroidAdapter: RecyclerView.Adapter<AndroidAdapter.AndroidViewHolder>() {
+class AndroidAdapter : RecyclerView.Adapter<AndroidAdapter.AndroidViewHolder>() {
 
     private val listData = ArrayList<Android>()
     var onItemClicked: ((Android) -> Unit)? = null
 
-    fun setData(newList: List<Android>?){
+    fun setData(newList: List<Android>?) {
         if (newList == null) return
         listData.clear()
         listData.addAll(newList)
@@ -34,15 +33,12 @@ class AndroidAdapter: RecyclerView.Adapter<AndroidAdapter.AndroidViewHolder>() {
 
     override fun getItemCount(): Int = listData.size
 
-    inner class AndroidViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
+    inner class AndroidViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val binding = ItemAndroidBinding.bind(itemView)
 
-        fun bind(data: Android){
-            binding.txtTitle.text = data.title
-            binding.imgPoster.load(data.poster){
-                crossfade(1000)
-            }
-
+        fun bind(data: Android) {
+            binding.android = data
+            binding.executePendingBindings()
         }
 
         init {

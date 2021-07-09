@@ -29,7 +29,9 @@ class ExperienceDetailFragment : Fragment() {
         with(binding) {
             txtTitle.text = experienceArgs.experience.title
             txtSubtitle.text = experienceArgs.experience.detail
-            imgDetailProfile.load(experienceArgs.experience.image)
+            imgDetailProfile.load(experienceArgs.experience.image){
+                crossfade(2000)
+            }
         }
     }
 

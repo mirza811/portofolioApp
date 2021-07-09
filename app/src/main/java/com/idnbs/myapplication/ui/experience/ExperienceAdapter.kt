@@ -39,11 +39,8 @@ class ExperienceAdapter : RecyclerView.Adapter<ExperienceAdapter.ExperienceViewH
         private val binding = ItemExperienceBinding.bind(itemView)
 
         fun bind(data: Experience) {
-            binding.txtTitle.text = data.title
-            binding.txtDetail.text = data.detail
-            binding.imgExperience.load(data.image) {
-                crossfade(1000)
-            }
+            binding.experience = data
+            binding.executePendingBindings()
         }
 
         init {
