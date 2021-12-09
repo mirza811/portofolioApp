@@ -1,4 +1,4 @@
-package com.idnbs.myapplication.ui.experience
+package com.mirza.myapplication.ui.experience
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,10 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.idnbs.myapplication.data.experience.ExperienceObject
-import com.idnbs.myapplication.databinding.FragmentExperienceBinding
+import com.mirza.myapplication.data.experience.ExperienceObject
+import com.mirza.myapplication.databinding.FragmentExperienceBinding
 
 class ExperienceFragment : Fragment() {
     private var _binding: FragmentExperienceBinding? = null

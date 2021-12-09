@@ -1,12 +1,12 @@
-package com.idnbs.myapplication.ui.android
+package com.mirza.myapplication.ui.android
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.idnbs.myapplication.R
-import com.idnbs.myapplication.data.android.Android
-import com.idnbs.myapplication.databinding.ItemAndroidBinding
+import com.mirza.myapplication.R
+import com.mirza.myapplication.data.android.Android
+import com.mirza.myapplication.databinding.ItemAndroidBinding
 
 class AndroidAdapter : RecyclerView.Adapter<AndroidAdapter.AndroidViewHolder>() {
 

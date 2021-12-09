@@ -1,21 +1,16 @@
-package com.idnbs.myapplication.ui.android
+package com.mirza.myapplication.ui.android
 
-import android.app.Dialog
 import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.Window
 import android.widget.Toast
 import androidx.browser.customtabs.CustomTabsIntent
-import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.idnbs.myapplication.R
-import com.idnbs.myapplication.data.android.AndroidObject
-import com.idnbs.myapplication.databinding.FragmentAndroidBinding
+import com.mirza.myapplication.R
+import com.mirza.myapplication.data.android.AndroidObject
+import com.mirza.myapplication.databinding.FragmentAndroidBinding
 
 
 private const val GITHUB_LINK = "https://www.dzakyhdr.my.id/"

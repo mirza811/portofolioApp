@@ -1,12 +1,11 @@
-package com.idnbs.myapplication.ui.profile
+package com.mirza.myapplication.ui.profile
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.idnbs.myapplication.R
-import com.idnbs.myapplication.databinding.FragmentProfileBinding
+import com.mirza.myapplication.databinding.FragmentProfileBinding
 
 
 class ProfileFragment : Fragment() {

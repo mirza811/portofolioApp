@@ -1,4 +1,4 @@
-package com.idnbs.myapplication
+package com.mirza.myapplication
 
 import org.junit.Test
 

@@ -1,13 +1,12 @@
-package com.idnbs.myapplication.ui.experience
+package com.mirza.myapplication.ui.experience
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import coil.load
-import com.idnbs.myapplication.R
-import com.idnbs.myapplication.data.experience.Experience
-import com.idnbs.myapplication.databinding.ItemExperienceBinding
+import com.mirza.myapplication.R
+import com.mirza.myapplication.data.experience.Experience
+import com.mirza.myapplication.databinding.ItemExperienceBinding
 
 class ExperienceAdapter : RecyclerView.Adapter<ExperienceAdapter.ExperienceViewHolder>() {
 

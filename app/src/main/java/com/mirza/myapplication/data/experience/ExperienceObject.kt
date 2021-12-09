@@ -1,6 +1,6 @@
-package com.idnbs.myapplication.data.experience
+package com.mirza.myapplication.data.experience
 
-import com.idnbs.myapplication.R
+import com.mirza.myapplication.R
 
 object ExperienceObject {
     private val title = arrayOf(

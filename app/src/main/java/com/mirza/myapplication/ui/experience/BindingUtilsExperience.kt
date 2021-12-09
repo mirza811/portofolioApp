@@ -1,10 +1,10 @@
-package com.idnbs.myapplication.ui.experience
+package com.mirza.myapplication.ui.experience
 
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import coil.load
-import com.idnbs.myapplication.data.experience.Experience
+import com.mirza.myapplication.data.experience.Experience
 
 @BindingAdapter("experienceTitle")
 fun TextView.setExperienceTitle(data: Experience?){

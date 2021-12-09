@@ -1,4 +1,4 @@
-package com.idnbs.myapplication.ui.experience
+package com.mirza.myapplication.ui.experience
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
-import coil.load
-import com.idnbs.myapplication.databinding.FragmentExperienceDetailBinding
+import com.mirza.myapplication.databinding.FragmentExperienceDetailBinding
 
 
 class ExperienceDetailFragment : Fragment() {
