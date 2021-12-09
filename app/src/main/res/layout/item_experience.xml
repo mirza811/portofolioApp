@@ -6,7 +6,7 @@
     <data>
         <variable
             name="experience"
-            type="com.idnbs.myapplication.data.experience.Experience" />
+            type="mirza.myapplication.data.experience.Experience" />
     </data>
 
     <com.google.android.material.card.MaterialCardView

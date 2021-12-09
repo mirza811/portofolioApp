@@ -1,4 +1,4 @@
-package com.idnbs.myapplication.data.experience
+package com.mirza.myapplication.data.experience
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

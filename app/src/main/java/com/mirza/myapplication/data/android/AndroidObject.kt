@@ -1,6 +1,6 @@
-package com.idnbs.myapplication.data.android
+package com.mirza.myapplication.data.android
 
-import com.idnbs.myapplication.R
+import com.mirza.myapplication.R
 
 object AndroidObject {
 

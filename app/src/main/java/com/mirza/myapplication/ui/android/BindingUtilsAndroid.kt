@@ -1,11 +1,10 @@
-package com.idnbs.myapplication.ui.android
+package com.mirza.myapplication.ui.android
 
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
-import coil.Coil
 import coil.load
-import com.idnbs.myapplication.data.android.Android
+import com.mirza.myapplication.data.android.Android
 
 @BindingAdapter("androidTitle")
 fun TextView.setTitleAndroid(data: Android?){
